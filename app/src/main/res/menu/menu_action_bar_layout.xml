@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/inicio"
+        android:title="Inicio"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/jugar"
+        android:title="JUGAR"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/todos"
+        app:showAsAction="never"
+        android:title="Todos" />
+    <item
+        android:id="@+id/solidos"
+        app:showAsAction="never"
+        android:title="Sólidos" />
+    <item
+        android:id="@+id/gases"
+        app:showAsAction="never"
+        android:title="Gases" />
+    <item
+        android:id="@+id/liquidos"
+        app:showAsAction="never"
+        android:title="Líquidos" />
+    <item
+        android:id="@+id/sinteticos"
+        app:showAsAction="never"
+        android:title="Sintéticos" />
+</menu>
